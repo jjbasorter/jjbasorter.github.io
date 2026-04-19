@@ -22,4 +22,4 @@ let dataSetVersion = '';
 /**
  * Image root, will be appended to the start of every image URL.
  */
-const imageRoot = 'https://static.jojowiki.com/images/';
+const imageRoot = 'src/assets/';
