@@ -303,6 +303,7 @@ function display() {
   const charNameDisp = (name) => {
     const charName = reduceTextWidth(name, 'Arial 12.8px', 220);
     const charTooltip = name !== charName ? name : '';
+    console.log(charTooltip,charName)
     return `<p title="${charTooltip}">${charName}</p>`;
   };
 
