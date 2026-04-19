@@ -303,7 +303,7 @@ function display() {
   const charNameDisp = (name) => {
     const charName = reduceTextWidth(name, 'Arial 12.8px', 220);
     const charTooltip = name !== charName ? name : '';
-    return `<p title="${charTooltip}">${charTooltip}</p>`;
+    return `<p title="${charTooltip}">${charName}</p>`;
   };
 
   progressBar(`Battle No. ${battleNo}`, percent);
