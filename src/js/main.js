@@ -300,10 +300,10 @@ function display() {
   if (skipCheck(leftChar, rightChar)) return;
 
   // TODO: Add submitted Cross condition
-  const charNameDisp = (name, wiki) => {
+  const charNameDisp = (name) => {
     const charName = reduceTextWidth(name, 'Arial 12.8px', 220);
     const charTooltip = name !== charName ? name : '';
-    return `<p title="${charTooltip}"><a href="${wiki}" target="_blank">${charName}</a></p>`;
+    return `<p title="${charTooltip}"></p>`;
   };
 
   progressBar(`Battle No. ${battleNo}`, percent);
@@ -313,8 +313,8 @@ function display() {
   document.querySelector('.left.sort.image').src = leftChar.imgs[Math.floor(Math.random() * leftChar.imgs.length)];
   document.querySelector('.right.sort.image').src = rightChar.imgs[Math.floor(Math.random() * rightChar.imgs.length)];
 
-  document.querySelector('.left.sort.text').innerHTML = charNameDisp(leftChar.name, leftChar.wiki);
-  document.querySelector('.right.sort.text').innerHTML = charNameDisp(rightChar.name, rightChar.wiki);
+  document.querySelector('.left.sort.text').innerHTML = charNameDisp(leftChar.name);
+  document.querySelector('.right.sort.text').innerHTML = charNameDisp(rightChar.name);
 
   /** Autopick if choice has been given. */
   if (choices.length !== battleNo - 1) {
