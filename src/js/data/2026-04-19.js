@@ -24,63 +24,63 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "Jonathan Joestar",
-    img: "Jonathan_Infobox_Manga.png",
+    imgUrls: ["Jonathan_Infobox_Manga.png"],
     opts: {
       series: ["PB"]
     }
   },
   {
     name: "Joseph Joestar",
-    img: "Joseph_Joestar_Infobox_Manga.png",
+    imgUrls: ["Joseph_Joestar_Infobox_Manga.png"],
     opts:{
       series: ["BT"]
     }
   },
   {
     name: "Jotaro Kujo",
-    img: "Jotaro_SC_Infobox_Manga.png",
+    imgUrls: ["Jotaro_SC_Infobox_Manga.png"],
     opts:{
       series: ["SDC"]
     }
   },
   {
     name: "Josuke Higashikata",
-    img: "Josuke_DU_Infobox_Manga.png",
+    imgUrls: ["Josuke_DU_Infobox_Manga.png"],
     opts:{
       series: ["DIU"]
     }
   },
   {
     name: "Giorno Giovanna",
-    img: "Giorno_Giovanna_Infobox_Manga.png",
+    imgUrls: ["Giorno_Giovanna_Infobox_Manga.png"],
     opts:{
       series: ["VA"]
     }
   },
   {
     name: "Jolyne Cujoh",
-    img: "Jolyne_Infobox_Manga.png",
+    imgUrls: ["Jolyne_Infobox_Manga.png"],
     opts:{
       series: ["SO"]
     }
   },
   {
     name: "Johnny Joestar",
-    img: "Johnny_Joestar_Infobox_Manga.png",
+    imgUrls: ["Johnny_Joestar_Infobox_Manga.png"],
     opts:{
       series: ["SBR"]
     }
   },
   {
     name: "Josuke Higashikata (JJL)",
-    img: "Josuke_JJL_Infobox_Manga.png",
+    imgUrls: ["Josuke_JJL_Infobox_Manga.png"],
     opts:{
       series: ["JJL"]
     }
   },
   {
     name: "Jodio Joestar",
-    img: "Jodio_Joestar_Infobox_Manga.png",
+    imgUrls: ["Jodio_Joestar_Infobox_Manga.png"],
     opts:{
       series: ["TJL"]
     }
